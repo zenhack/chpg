@@ -5,7 +5,6 @@ import (
 	"crypto/rand"
 	"flag"
 	"fmt"
-	"log"
 	"math/big"
 	"os"
 )
@@ -18,7 +17,8 @@ var (
 
 func check(err error) {
 	if err != nil {
-		log.Fatal(err)
+		fmt.Fprintf(os.Stderr, "Error: %s\n", err)
+		os.Exit(1)
 	}
 }
 
