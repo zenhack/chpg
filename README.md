@@ -3,9 +3,7 @@
 ## Background Reading
 
 ![http://xkcd.com/936/](http://imgs.xkcd.com/comics/password_strength.png
-"To anyone who understands information theory and security and is in an
-infuriating argument with someone who does not (possibly involving mixed
-case), I sincerely apologize.")
+"To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize.")
 
 ([Source](http://xkcd.com/936/), in case anyone was unaware).
 
@@ -15,10 +13,10 @@ Because you are not a good enough random number generator for the above to be
 safe. And because most of the password generators I've seen generate
 "troubador" passwords, or ones that are *harder* to remember.
 
-## Details (not many)
+## What (not much)
 
-This is just a simple password generator - It generates passwords like the one
-praised in the comic.
+This is just a simple password generator written in go - It generates
+passwords like the one praised in the comic.
 
 ## Building & installing
 
