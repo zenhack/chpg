@@ -53,3 +53,6 @@ praised in the comic.
    so this is probably not something you want to use in a performance sensitive
    context.
 
+## License
+
+MIT. See COPYING.
