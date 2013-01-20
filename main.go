@@ -5,6 +5,7 @@ import (
 	"crypto/rand"
 	"flag"
 	"fmt"
+	"strings"
 	"math/big"
 	"os"
 )
@@ -66,12 +67,11 @@ func main() {
 
 		// Okay, we've found our word. now let's read it in and add it to
 		// the password.
-		result[i], err = dict.ReadString('\n')
+		line, err := dict.ReadString('\n')
 		check(err)
+		result[i] = strings.TrimSpace(line)
 	}
 
 	// We're done! print it out.
-	for _, v := range result {
-		fmt.Print(v)
-	}
+	fmt.Println(strings.Join(result, " "))
 }
