@@ -50,10 +50,6 @@ passwords like the one praised in the comic.
    Which slows things down a bit (Just barely perceptible on my laptop), and
    so this is probably not something you want to use in a performance sensitive
    context.
- - The output currently comes out one word per line. This is just me being
-   lazy - I'll probably fix it soon. I expect I don't have to say this, but
-   that *whole thing* is your password - using just one line would be a
-   *really* bad idea.
 
 ## License
 
