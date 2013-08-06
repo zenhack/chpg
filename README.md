@@ -40,7 +40,7 @@ passwords like the one praised in the comic.
 
 ## Notes
 
- - The dictonary should just be a newline-separated list of words. The file
+ - The dictionary should just be a newline-separated list of words. The file
    should end with a newline.
  - Using a dictionary that's large enough is is important. The general
    consensus is that Randall used a 2000-word dictionary in his calculations,
